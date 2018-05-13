@@ -8,7 +8,7 @@ namespace Assignments
 {
     internal interface ILog
     {
-        string _LogFilePath { get;} 
+        string LogFilePath { get;} 
         string GetLog();
         void WriteToLog(string message);
     }
