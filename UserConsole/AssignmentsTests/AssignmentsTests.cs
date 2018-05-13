@@ -21,5 +21,15 @@ namespace AssignmentsTests
             Assert.AreEqual(addNumbersResult,6);
         }
 
+        [Test]
+        public void MultiplyNumbersShouldMultiplyNumbers()
+        {
+            var userTask = new UserTasks();
+            int firstNumber = 2;
+            int secondNumber = 4;
+            var multiplyNumbersResult = userTask.MultiplyNumbers(firstNumber,secondNumber);
+            Assert.AreEqual(multiplyNumbersResult,8);
+        }
+
     }
 }
